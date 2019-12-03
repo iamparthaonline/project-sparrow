@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server -d",
-    "prebuild": "npm install --global cross-env && npm install --global webpack",
+    "prebuild": "npm install --global cross-env && npm install --global webpack && npm install --global webpack-cli",
     "build": "cross-env NODE_ENV=production webpack -p",
     "test": "jest"
   },
