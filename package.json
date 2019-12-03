@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server -d",
     "prebuild": "npm install",
-    "build": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js -p",
+    "build": "cross-env NODE_ENV=production webpack -p",
     "test": "jest"
   },
   "keywords": [],
