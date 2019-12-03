@@ -24,9 +24,10 @@ const WebpackPwaManifestConfig = new WebpackPwaManifest({
   short_name: 'RT',
   description: 'Coacheasy testing',
   background_color: '#ffffff',
-  display: "standalone",
+  display: "fullscreen",
   theme_color: "#000000",
-  crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+  crossorigin: 'use-credentials', //can be null, use-credentials or anonymous,
+  start_url: "/index.html",
   icons: [
     {
       src: path.resolve('src/assets/icons/sun.png'),

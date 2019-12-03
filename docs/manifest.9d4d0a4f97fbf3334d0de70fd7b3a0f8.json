@@ -44,7 +44,7 @@
   "name": "retest",
   "short_name": "RT",
   "orientation": "portrait",
-  "display": "standalone",
+  "display": "fullscreen",
   "start_url": ".",
   "description": "Coacheasy testing",
   "background_color": "#ffffff",
