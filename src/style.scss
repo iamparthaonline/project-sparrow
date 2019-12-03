@@ -1,0 +1,23 @@
+$body-color: red;
+
+body {
+  color: $body-color;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+
+    &__image {
+        width: 100px;
+        height: auto;
+    }
+}
+.new{
+    color: yellow;
+}
+
+.left {
+    text-align: left;
+}
