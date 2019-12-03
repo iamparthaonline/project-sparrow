@@ -20,7 +20,7 @@ const DefinePluginConfig = new webpack.DefinePlugin({
 });
 
 const WebpackPwaManifestConfig = new WebpackPwaManifest({
-  name: 'Retest',
+  name: 'retest',
   short_name: 'RT',
   description: 'Coacheasy testing',
   background_color: '#ffffff',
