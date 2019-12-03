@@ -24,6 +24,7 @@ const WebpackPwaManifestConfig = new WebpackPwaManifest({
   short_name: 'RT',
   description: 'Coacheasy testing',
   background_color: '#ffffff',
+  display: "standalone",
   theme_color: "#000000",
   crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
   icons: [
@@ -97,7 +98,7 @@ module.exports = {
   },
   output: {
     filename: dev ? '[name].js' : '[name].[contenthash].js',
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'docs'),
   },
   mode: dev ? 'development' : 'production',
   plugins: dev
