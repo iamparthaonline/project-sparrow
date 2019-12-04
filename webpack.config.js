@@ -22,10 +22,10 @@ const DefinePluginConfig = new webpack.DefinePlugin({
 const WebpackPwaManifestConfig = new WebpackPwaManifest({
   name: 'retest',
   short_name: 'RT',
-  description: 'Coacheasy testing',
-  background_color: '#ffffff',
-  display: "fullscreen",
-  theme_color: "#000000",
+  background_color: "#ffffff",
+  description: "It's what's happening. From breaking news and entertainment, sports and politics, to big events and everyday interests.",
+  display: "standalone",
+  theme_color: "#ffffff",
   crossorigin: 'use-credentials', //can be null, use-credentials or anonymous,
   start_url: "/index.html",
   icons: [
