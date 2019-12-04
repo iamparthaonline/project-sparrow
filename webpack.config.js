@@ -99,7 +99,7 @@ module.exports = {
   },
   output: {
     filename: dev ? '[name].js' : '[name].[contenthash].js',
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'build'),
   },
   mode: dev ? 'development' : 'production',
   plugins: dev
